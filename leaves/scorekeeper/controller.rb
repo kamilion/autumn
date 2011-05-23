@@ -25,6 +25,7 @@ class Controller < Autumn::Leaf
       render :usage
     end
   end
+  ann :points_command, :protected => true
   
   private
   

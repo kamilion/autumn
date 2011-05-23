@@ -1,9 +1,16 @@
 --- 
 Administrator: 
   authentication: 
-    type: op
+    type: nick
+    nick: Kamilion
   class: Administrator
 Scorekeeper: 
+  authentication: 
+    type: op
   class: Scorekeeper
+Banhammer: 
+  authentication: 
+    type: op
+  class: Banhammer
 Insulter: 
   class: Insulter
