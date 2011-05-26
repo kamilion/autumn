@@ -19,5 +19,6 @@ class Controller < Autumn::Leaf
   
   def banhammer(victim)
     var :victim => victim
+    var :return => `sudo iptables -A INPUT -s #{victim} -j DROP; echo -n Killed #{victim}`
   end
 end
